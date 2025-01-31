@@ -20,6 +20,7 @@ public class Program
         });
 
         // Add Services to the container
+        builder.Services.AddScoped<ISeleniumService, SeleniumService>();
         builder.Services.AddControllersWithViews();
         var app = builder.Build();
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\DevGenie.csproj": {}
+    "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\DevGenie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\DevGenie.csproj": {
+    "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\DevGenie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\DevGenie.csproj",
+        "projectUniqueName": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\DevGenie.csproj",
         "projectName": "DevGenie",
-        "projectPath": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\DevGenie.csproj",
+        "projectPath": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\DevGenie.csproj",
         "packagesPath": "C:\\Users\\lexyb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\obj\\",
+        "outputPath": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lexyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,6 +76,10 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.28.0, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.28.0, )"
@@ -83,6 +87,14 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[132.0.6834.15900, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.35.0, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[131.0.2903.48, )"
             }
           },
           "imports": [

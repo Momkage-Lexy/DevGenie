@@ -2272,6 +2272,22 @@
           }
         }
       },
+      "Selenium.Support/4.28.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.28.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Selenium.WebDriver/4.28.0": {
         "type": "package",
         "compile": {
@@ -2292,6 +2308,18 @@
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.GeckoDriver/0.35.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.GeckoDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.MSEdgeDriver/131.0.2903.48": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.MSEdgeDriver.targets": {}
         }
       },
       "System.ClientModel/1.2.1": {
@@ -6605,6 +6633,20 @@
         "openai.nuspec"
       ]
     },
+    "Selenium.Support/4.28.0": {
+      "sha512": "6S1gZacGGDRitU2kO92AUHQU1JkMdiFK4NAm6fn8+6eZMU8n04MF6skH6oUqkWAv0wyF1rKWD5IBMFiTBm6G5A==",
+      "type": "package",
+      "path": "selenium.support/4.28.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.4.28.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
     "Selenium.WebDriver/4.28.0": {
       "sha512": "g4iZWBHQH5dObJQKcKXsol8yFJPIkXhVdn/8P726d4OmpHgQ9aYSwtTCWo+FUYHIkMS+haItgeOT6hilmLeHNw==",
       "type": "package",
@@ -6649,6 +6691,44 @@
         "nupkg-icon.png",
         "selenium.webdriver.chromedriver.132.0.6834.15900.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.GeckoDriver/0.35.0": {
+      "sha512": "+s9jC3IhtNmWloGv9pQ+TqNeRYM0cCPQrFicpXNcyP08KI/WjTRPE0b0M6Fc8I3FEGj98EBQjQBwUlAiQpMW0w==",
+      "type": "package",
+      "path": "selenium.webdriver.geckodriver/0.35.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/DefinePropertiesGeckoDriver.targets",
+        "build/Selenium.WebDriver.GeckoDriver.targets",
+        "driver/linux64/geckodriver",
+        "driver/mac64/geckodriver",
+        "driver/mac64arm/geckodriver",
+        "driver/win32/geckodriver.exe",
+        "driver/win64/geckodriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.geckodriver.0.35.0.nupkg.sha512",
+        "selenium.webdriver.geckodriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.MSEdgeDriver/131.0.2903.48": {
+      "sha512": "ZMdhGorLfRpHcrFNCmJPH3M/Is6e//tGUaklATjeQbOclh+0v7JuiifvBr5kWRD3jLGPNrWk+M98CmcB3vW5sA==",
+      "type": "package",
+      "path": "selenium.webdriver.msedgedriver/131.0.2903.48",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/DefinePropertiesMSEdgeDriver.targets",
+        "build/Selenium.WebDriver.MSEdgeDriver.targets",
+        "driver/win32/msedgedriver.exe",
+        "driver/win64/msedgedriver.exe",
+        "selenium.webdriver.msedgedriver.131.0.2903.48.nupkg.sha512",
+        "selenium.webdriver.msedgedriver.nuspec"
       ]
     },
     "System.ClientModel/1.2.1": {
@@ -7911,8 +7991,11 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 9.0.0",
       "OpenAI >= 2.1.0",
+      "Selenium.Support >= 4.28.0",
       "Selenium.WebDriver >= 4.28.0",
-      "Selenium.WebDriver.ChromeDriver >= 132.0.6834.15900"
+      "Selenium.WebDriver.ChromeDriver >= 132.0.6834.15900",
+      "Selenium.WebDriver.GeckoDriver >= 0.35.0",
+      "Selenium.WebDriver.MSEdgeDriver >= 131.0.2903.48"
     ]
   },
   "packageFolders": {
@@ -7921,11 +8004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\DevGenie.csproj",
+      "projectUniqueName": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\DevGenie.csproj",
       "projectName": "DevGenie",
-      "projectPath": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\DevGenie.csproj",
+      "projectPath": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\DevGenie.csproj",
       "packagesPath": "C:\\Users\\lexyb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\obj\\",
+      "outputPath": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lexyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7990,6 +8073,10 @@
             "target": "Package",
             "version": "[2.1.0, )"
           },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.28.0, )"
+          },
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.28.0, )"
@@ -7997,6 +8084,14 @@
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
             "version": "[132.0.6834.15900, )"
+          },
+          "Selenium.WebDriver.GeckoDriver": {
+            "target": "Package",
+            "version": "[0.35.0, )"
+          },
+          "Selenium.WebDriver.MSEdgeDriver": {
+            "target": "Package",
+            "version": "[131.0.2903.48, )"
           }
         },
         "imports": [

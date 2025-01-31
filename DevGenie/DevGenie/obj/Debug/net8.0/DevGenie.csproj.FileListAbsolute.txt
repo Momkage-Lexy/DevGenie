@@ -283,3 +283,4 @@ C:\Users\lexyb\DevGenie\DevGenie\DevGenie\obj\Debug\net8.0\refint\DevGenie.dll
 C:\Users\lexyb\DevGenie\DevGenie\DevGenie\obj\Debug\net8.0\DevGenie.pdb
 C:\Users\lexyb\DevGenie\DevGenie\DevGenie\obj\Debug\net8.0\DevGenie.genruntimeconfig.cache
 C:\Users\lexyb\DevGenie\DevGenie\DevGenie\obj\Debug\net8.0\ref\DevGenie.dll
+C:\Users\lexyb\DevGenie\devgenie\devgenie\bin\Debug\net8.0\WebDriver.Support.dll
