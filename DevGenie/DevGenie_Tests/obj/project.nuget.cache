@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0VMTcZOgJ8U=",
+  "dgSpecHash": "KpXuN9yEDSQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie_Tests\\DevGenie_Tests.csproj",
   "expectedPackageFiles": [
@@ -134,8 +134,11 @@
     "C:\\Users\\lexyb\\.nuget\\packages\\nunit.analyzers\\3.9.0\\nunit.analyzers.3.9.0.nupkg.sha512",
     "C:\\Users\\lexyb\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\lexyb\\.nuget\\packages\\openai\\2.1.0\\openai.2.1.0.nupkg.sha512",
+    "C:\\Users\\lexyb\\.nuget\\packages\\selenium.support\\4.28.0\\selenium.support.4.28.0.nupkg.sha512",
     "C:\\Users\\lexyb\\.nuget\\packages\\selenium.webdriver\\4.28.0\\selenium.webdriver.4.28.0.nupkg.sha512",
     "C:\\Users\\lexyb\\.nuget\\packages\\selenium.webdriver.chromedriver\\132.0.6834.15900\\selenium.webdriver.chromedriver.132.0.6834.15900.nupkg.sha512",
+    "C:\\Users\\lexyb\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.35.0\\selenium.webdriver.geckodriver.0.35.0.nupkg.sha512",
+    "C:\\Users\\lexyb\\.nuget\\packages\\selenium.webdriver.msedgedriver\\131.0.2903.48\\selenium.webdriver.msedgedriver.131.0.2903.48.nupkg.sha512",
     "C:\\Users\\lexyb\\.nuget\\packages\\system.clientmodel\\1.2.1\\system.clientmodel.1.2.1.nupkg.sha512",
     "C:\\Users\\lexyb\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\lexyb\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",

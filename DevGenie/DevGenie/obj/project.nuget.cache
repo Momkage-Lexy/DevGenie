@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+SMPgxxHdvo=",
+  "dgSpecHash": "uYkDqVUMrN4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\DevGenie.csproj",
+  "projectFilePath": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\DevGenie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lexyb\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\lexyb\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

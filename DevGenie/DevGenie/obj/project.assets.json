@@ -8004,11 +8004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\DevGenie.csproj",
+      "projectUniqueName": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\DevGenie.csproj",
       "projectName": "DevGenie",
-      "projectPath": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\DevGenie.csproj",
+      "projectPath": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\DevGenie.csproj",
       "packagesPath": "C:\\Users\\lexyb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lexyb\\DevGenie\\devgenie\\devgenie\\obj\\",
+      "outputPath": "C:\\Users\\lexyb\\DevGenie\\DevGenie\\DevGenie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lexyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
